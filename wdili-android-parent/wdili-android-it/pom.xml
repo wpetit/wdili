@@ -9,9 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <groupId>fr.min.wdili</groupId>
   <artifactId>wdili-android-it</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>apk</packaging>
   <name>wdili-android-it - Integration tests</name>
 
