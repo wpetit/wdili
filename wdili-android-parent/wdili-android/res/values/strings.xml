@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello wdili!</string>
+    <string name="app_name">Where did i leave it ?</string>
+    <string name="remember_button">Remember where I am leaving it</string>
+    <string name="findmyway_button">Find my way back</string>
+    <string name="locationstored_notification">Location stored</string>
+</resources>
