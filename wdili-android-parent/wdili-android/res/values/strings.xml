@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello wdili!</string>
+    <string name="app_shortname">wdili</string>
     <string name="app_name">Where did i leave it ?</string>
+    <string name="app_information">Where did i leave it ? is an application to find stuff we left. It displays the location where we left our stuff and our current location to find our way back.</string>
+    <string name="general_section">General</string>
+    <string name="about_section">About</string>
     <string name="remember_button">Remember where I am leaving it</string>
     <string name="findmyway_button">Find my way back</string>
     <string name="locationstored_notification">Location stored</string>
+    <string name="remember_button_description">Store current location</string>
+    <string name="findmyway_button_description">Display map</string>
+    <string name="information_button">Informations</string>
+    <string name="information_button_description">Informations about the application</string>
 </resources>

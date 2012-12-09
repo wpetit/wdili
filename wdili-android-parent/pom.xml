@@ -31,12 +31,6 @@
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.google.android</groupId>
-				<artifactId>android</artifactId>
-				<version>${platform.version}</version>
-				<scope>provided</scope>
-			</dependency>
-			<dependency>
 				<groupId>com.google.android.maps</groupId>
 				<artifactId>maps</artifactId>
 				<version>${google-addons.version}</version>

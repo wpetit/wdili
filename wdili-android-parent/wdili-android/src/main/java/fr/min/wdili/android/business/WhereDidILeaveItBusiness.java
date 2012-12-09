@@ -4,4 +4,6 @@ public interface WhereDidILeaveItBusiness {
 	void storeLocation();
 
 	void displayLocation();
+
+	void displayAbout();
 }

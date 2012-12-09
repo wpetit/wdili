@@ -25,12 +25,10 @@ public class ListItemizedOverlay extends ItemizedOverlay<OverlayItem> {
 	public int size() {
 		return arrayListOverlayItem.size();
 	}
-	
-	public void addOverlayItem(OverlayItem overlay)
-	 {
-	  arrayListOverlayItem.add(overlay);
-	  populate();
-	 }
 
+	public void addOverlayItem(OverlayItem overlay) {
+		arrayListOverlayItem.add(overlay);
+		populate();
+	}
 
 }

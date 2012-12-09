@@ -48,7 +48,7 @@ public class WhereDidILeaveItBusinessImpl implements WhereDidILeaveItBusiness,
 		editor.putFloat("longitude", (float) location.getLongitude());
 		editor.putFloat("latitude", (float) location.getLatitude());
 		editor.commit();
-		activity.displayLocationStore();
+		activity.displayLocationStored();
 		Log.d(this.getClass().getName(), "onLocationUpdate: "+ location.getLongitude() + ";" + location.getLatitude());
 	}
 
@@ -59,6 +59,10 @@ public class WhereDidILeaveItBusinessImpl implements WhereDidILeaveItBusiness,
 		float latitude = preferences.getFloat("latitude", -1);
 		activity.displayLocation(longitude, latitude);
 		Log.d(this.getClass().getName(), "displayLocation: "+ longitude + ";" + latitude);
+	}
+
+	public void displayAbout() {
+		activity.displayAbout();
 	}
 
 }

@@ -38,7 +38,7 @@ public class FindMyWayBackActivity extends MapActivity {
 		Log.d(TAG, "onCreate, location to display" + longitude + ";" + latitude);
 	}
 
-	public void displayLocation(double longitude, double latitude) {
+	private void displayLocation(double longitude, double latitude) {
 		MapView mapView = (MapView) findViewById(R.id.mapview);
 		mapView.setBuiltInZoomControls(true);
 		MapController mapController = mapView.getController();
@@ -53,7 +53,7 @@ public class FindMyWayBackActivity extends MapActivity {
 		mapView.getOverlays().add(itemizedOverlay);
 	}
 	
-	public void displayMyLocation() {
+	private void displayMyLocation() {
 		MapView mapView = (MapView) findViewById(R.id.mapview);
 		MyLocationOverlay myLocationOverlay = new MyLocationOverlay(getApplicationContext(), mapView);
 		myLocationOverlay.enableMyLocation();
