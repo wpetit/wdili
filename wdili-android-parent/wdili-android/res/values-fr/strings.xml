@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_shortname">wdili</string>
+    <string name="app_name">Où l\'ai-je laissé ?</string>
+    <string name="app_information">Où l\'ai-je laissé ? est une application pour retrouver les objets qu\'on a laissé. Elle indique le lieu où se trouve l\'objet égaré et la position courante pour retrouver son chemin.</string>
+    <string name="general_section">Général</string>
+    <string name="about_section">A propos de</string>
+    <string name="remember_button">Se rappeler de l\'endroit où je le laisse</string>
+    <string name="findmyway_button">Indiquer le chemin du retour</string>
+    <string name="locationstored_notification">Position enregistrée</string>
+    <string name="remember_button_description">Sauvegarder la position courante</string>
+    <string name="findmyway_button_description">Afficher la carte</string>
+    <string name="information_button">Informations</string>
+    <string name="information_button_description">Informations à propos de l\'application</string>
+</resources>
